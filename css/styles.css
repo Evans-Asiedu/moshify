@@ -411,7 +411,8 @@ a {
 /* Media */
 .media {
   display: flex;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
 .media__image {
@@ -787,5 +788,17 @@ a {
 @media screen and (min-width: 768px) {
   .feature:nth-of-type(even) .feature__content {
     order: 2;
+  }
+}
+
+/* Showcase Block */
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+    gap: 0 2rem;
+  }
+  .block-showcase__image > img {
+    width: 100%;
+    max-width: 700px;
   }
 }
