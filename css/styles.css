@@ -793,6 +793,10 @@ a {
 }
 
 /* Showcase Block */
+.block-showcase__image > img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .block-showcase .grid {
     grid-template-columns: 50% 50%;
@@ -883,4 +887,10 @@ a {
   .footer__copyright {
     font-size: 1.5rem;
   }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+  transform: translateY(5rem);
 }
