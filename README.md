@@ -1,4 +1,4 @@
-# Clone of Web Hosting Project
+# Moshify: A Web Hosting Project
 
 This README provides an overview of the project and instructions for getting started.
 
